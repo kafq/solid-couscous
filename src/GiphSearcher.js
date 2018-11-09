@@ -18,7 +18,7 @@ class GiphSearcher extends Component {
   render() {
     return (
       <div className="GiphSearcher">
-        <div>Giph Searcher for a {this.props.category}!</div>
+        <div className="GiphSearcherTitle"><span>Giph Searcher for a {this.props.category}!</span></div>
         <SearchButton category={this.props.category} setUrl={this.setUrl} />
         <GiphContainer url={this.state.url} />
       </div>

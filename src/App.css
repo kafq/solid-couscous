@@ -1,15 +1,31 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .GiphSearcher {
   height: 400px;
+  width: 50%;
+  align-self: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 20px 0;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border: 1px solid lightgrey;
+}
+
+.GiphSearcherTitle {
+  height: 10%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .SearchButton {
-  height: 10%;
+  height: 5%;
 }
 
 .GiphContainer img, .GiphContainer {
-  height: 90%;
+  height: 85%;
+  padding: 10px;
 }
